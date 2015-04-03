@@ -2,6 +2,6 @@ cluster.name: elasticsearch
 node.master: false
 node.data: true
 node.max_local_storage_nodes: 1
-path.conf: /data/conf/
 path.data: /data/es/
+path.logs: /data/log/
 bootstrap.mlockall: true

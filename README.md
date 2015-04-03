@@ -5,3 +5,5 @@ A simple elasticsearch config ensuring basic settings.
 > echo "vm.max_map_count = <max_mem>" | tee -a /etc/sysctl.conf 
 >
 > <max_mem> = 16*1000*(ram in MB)
+>
+> After starting the containers and configuring the image, elasticsearch can be started by 'service elasticsearch start'
